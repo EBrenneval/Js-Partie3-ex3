@@ -12,15 +12,15 @@
   <div>
   <div class="color green"onclick ="color()"></div>
   <div class="color red" onclick = "color2()" ></div>
-  <div class="color blue" onclick = "color3()" ></div>
+  <div class="color blue" onclick = "color3()" ></div> <!-- onclick permet de faire le bouton-->
 </div>
 <!--Dans le fichier HTML fourni,
 changer la couleur du texte en fonction du bouton choisi.-->
 
 <script>
 function color(){
-  var change = document.getElementById("texte");
-   change.style.color = "green";
+  var change = document.getElementById("texte"); // je vais cherche l'id texte
+   change.style.color = "green";                 // je modifie le css avec l'èvenmt change.
 }
 function color2(){
   var change =document.getElementById("texte");
@@ -31,8 +31,5 @@ function color3(){
    change.style.color = "blue";
 }
 </script>
-
-
-
 </body>
 </html>
